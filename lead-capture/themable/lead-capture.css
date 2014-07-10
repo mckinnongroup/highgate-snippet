@@ -1,0 +1,107 @@
+input:-moz-placeholder, textarea:-moz-placeholder { color:#999; font-weight: 500; text-transform: uppercase; }
+input::-moz-placeholder, textarea::-moz-placeholder { color:#999; font-weight: 500; text-transform: uppercase; }
+input:-ms-input-placeholder, textarea:-ms-input-placeholder { color:#999; font-weight: 500; text-transform: uppercase; }
+input::-webkit-input-placeholder,textarea::-webkit-input-placeholder { color:#999; font-weight: 500; text-transform: uppercase; }
+textarea, textarea:focus, input, input:focus {
+  outline-color: transparent;
+  outline-style: none;
+  outline: 0;
+  box-shadow:none !important;
+}
+
+#capture_form_outer .register {
+	display: inline-block;
+	zoom: 1;
+	*display: inline;
+}
+#capture_form_outer #capture_form_part_two.register {
+	display:none;
+}
+#capture_form_outer ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#capture_form_outer li {
+	position: relative;
+	margin: 0px;
+}
+#capture_form_outer label,
+#capture_form_outer li input,
+#capture_form_outer li select {
+	display: block;
+}
+#capture_form_outer label {
+	display:none;
+}
+
+#capture_form_outer li input,
+#capture_form_outer li select {
+	width: 235px;
+	margin-top: 20px;
+	margin-left: 5px;
+	background: none;
+	border: 0;
+	padding: 5px 0 10px 0;
+	border-bottom: 1px solid #eee;
+	letter-spacing: 2px;
+	text-transform: none;
+		-webkit-border-radius: 0;
+		-moz-border-radius: 0;
+	border-radius: 0;
+}
+
+#capture_form_outer li select {
+
+}
+
+#capture_form_outer label.error {
+	display: none;
+}
+
+#capture_form_outer input.error {
+	border: 1px solid #b31b1b;
+	box-shadow: 0 0 3px rgba(255,0,0,0.3);
+}
+
+#capture_form_outer li.required { 
+	display:none;
+}
+
+#capture_form_outer .required small {
+	
+}
+
+#capture_form_outer #result,
+#capture_form_outer #result_two {
+
+}
+
+#capture_form_outer .loader {
+	background: url('images/loader.png') no-repeat center center;
+	height: 16px;
+	width: 16px;
+}
+
+#capture_form_outer input[type="submit"] {
+	z-index: 10;
+	position: relative;
+	cursor:pointer;
+}
+
+
+
+
+
+
+
+/* SECOND FORM */
+
+#capture_form_part_two {
+	display:none;
+}
+
+
+
+
+
