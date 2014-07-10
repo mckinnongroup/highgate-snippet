@@ -852,7 +852,7 @@ span + .edit-link:before,
 	position: fixed;
 	width: 100%;
 	z-index: 4;
-        min-height: 491px;
+
         background: url(../../uploads/header.png) 56% top no-repeat;
 }
 
@@ -3183,3 +3183,27 @@ span + .edit-link:before,
         transform: none !important;
     }
 }
+
+/* ------------ Porrapat(Pao) Added Style for form ------------ */
+#capture_form_outer
+{
+	float:left;
+	width:400px;
+}
+
+p.register-info
+{
+	width:150px;
+	float:left;
+	margin-right:200px;
+}
+
+#capture_form_outer #submitbtn
+{
+	margin-bottom:20px;
+	margin-top:0px;
+	background:none;
+	color:black;
+	border:1px solid black;
+}
+/* ------------ End Porrapat(Pao) Added ------------ */

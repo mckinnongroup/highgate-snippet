@@ -17,51 +17,16 @@
 				<label for="phone">Phone</label>
 				<input type="tel" name="phone" title="Valid phone no. required" required="required" minlength="8" value="" placeholder="Phone"/>
 			</li>
+			<li class="post-code">
+				<label for="phone">Post Code</label>
+				<input type="tel" name="post-code" title="Valid post code required" required="required" value="" placeholder="Post Code"/>
+			</li>
 			<li class="required">
 				<small>* All fields are Mandatory</small>
 			</li>
 		</ul>
 		<div id="result">
 			<input type="hidden" name="leadcapture" />
-			<input id="submitbtn" type="submit" name="submit" value="Submit" />
-		</div>
-	</form>
-	<form id="capture_form_part_two" class="register" action="" method="post">
-		<ul>
-			<li class="property_type">
-				<label for="property_type">You're interested in</label>
-				<select name="property_type">
-					<option value="">Apartment Type</option>
-					<option>1 Bedroom</option>
-					<option>2 Bedroom</option>
-					<option>3 Bedroom</option>
-				</select>
-			</li>
-			<li class="reason_type">
-				<label for="reason_type">Reason for Purchase</label>
-				<select name="reason_type">
-					<option value="">Owner Occupier</option>
-					<option>First Home Buyer</option>
-					<option>Investor</option>
-				</select>
-			</li>
-			<li class="where_hear">
-				<select name="where_hear">
-					<option value="">How did you hear about us?</option>
-					<option>Realestate.com.au</option>
-					<option>Courier Mail</option>
-					<option>Sydney Morning Herald </option>
-					<option>Signage</option>
-				</select>
-			</li>
-			<li class="postcode">
-				<label for="postcode">Postcode</label>
-				<input type="text" name="postcode" value="" placeholder="Postcode" />
-			</li>
-		</ul>
-		<div id="result_two">
-			<input type="hidden" name="new_user" />
-			<input type="hidden" name="leadcapture_part_two" />
 			<input id="submitbtn" type="submit" name="submit" value="Submit" />
 		</div>
 	</form>

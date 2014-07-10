@@ -57,7 +57,7 @@ jQuery(document).ready(function($) {
 	});
 	
 	
-	$('#capture_form_outer input').focus(function() {
+	$('#capture_form_outer input:text').focus(function() {
 		if(input_default(this)) $(this).val('');
 	});
 	
